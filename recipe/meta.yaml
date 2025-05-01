@@ -27,7 +27,7 @@ requirements:
   host:
     - r-base
     - r-abind
-    - r-gdalutils
+    #- r-gdalutils
     - r-rgdal
     - r-sp
     - r-transformer >=1.6.1
@@ -35,7 +35,7 @@ requirements:
   run:
     - r-base
     - r-abind
-    - r-gdalutils
+    #- r-gdalutils
     - r-rgdal
     - r-sp
     - r-transformer >=1.6.1
