@@ -28,18 +28,18 @@ requirements:
     - r-base
     - r-abind
     #- r-gdalutils
-    - r-rgdal
+    #- r-rgdal
     - r-sp
     - r-transformer >=1.6.1
-    - r-terra >1.8.5
+    #- r-terra >1.8.5
   run:
     - r-base
     - r-abind
     #- r-gdalutils
-    - r-rgdal
+    #- r-rgdal
     - r-sp
     - r-transformer >=1.6.1
-    - r-terra >1.8.5
+    #- r-terra >1.8.5
 
 test:
   commands:
