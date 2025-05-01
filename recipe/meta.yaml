@@ -31,6 +31,7 @@ requirements:
     - r-rgdal
     - r-sp
     - r-transformer >=1.6.1
+    - r-terra >1.8.5               # [r_base >= 4.3 ]
   run:
     - r-base
     - r-abind
@@ -38,6 +39,7 @@ requirements:
     - r-rgdal
     - r-sp
     - r-transformer >=1.6.1
+    - r-terra >1.8.5               # [r_base >= 4.3 ]
 
 test:
   commands:
